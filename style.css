@@ -1,0 +1,106 @@
+.all-content {
+    text-align: center;
+    width: 76%;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+}
+.header {
+    width: 76%;
+    
+}
+.who-we-are {
+    margin-top: 7%;
+    font-size: 200%;
+}
+.heading {
+    margin-top: 3%;
+    color: #27b4b6;
+    font-family: "MontserratRegular";
+    font-size: 500%;
+}
+.heading-2 {
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    font-size: 240%;
+    color: #cfb5b5;
+}
+.app-menu {
+    margin: 0 auto;
+    height: 700px;
+}
+.paragraph {
+    width: 19%;
+    float: left;
+    padding: 0 10px;
+    background-color: #f7f7f7;
+}
+.service-wrapper {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 20% auto;    
+}
+.icon {
+    background-image: url('./images/css_sprites.png');
+    margin: auto;
+    position: absolute;
+    top:0; left: 0; bottom: 0; right: 0;
+}
+.icon-anhor.icon {
+    background-position: -10px -10px;
+    width: 64px;
+    height: 66px;
+}
+.icon-diamond.icon {
+    background-position: -10px -96px;
+    width: 65px;
+    height: 64px;
+}
+.icon-glasses.icon {
+    background-position: -10px -180px;
+    width: 66px;
+    height: 49px;
+}
+.icon-monitor.icon {
+    background-position: -95px -96px;
+    width: 64px;
+    height: 52px;
+}
+.text {
+    width: 80%;
+    margin: 0 auto 40% auto;
+    font-size: 110%;
+}
+.paragraph:hover {
+    background-color: #27b4b6;
+    color: #ffe5e5;
+}
+.paragraph:hover .icon-anhor {
+    background-position: -94px -10px;
+}
+.paragraph:hover .icon-diamond {
+    background-position: -178px -10px;
+}
+.paragraph:hover .icon-glasses {
+    background-position: -96px -180px;
+}
+.paragraph:hover .icon-monitor {
+    background-position: -179px -96px;
+}
+.heading-h2 {
+    font-size: 200%;
+
+}
+h3 {
+    font-family: "MontserratRegular";
+}
+@font-face {
+    font-family: "MontserratRegular";
+    src: url("./fonts/Montserrat-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
